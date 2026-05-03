@@ -105,13 +105,13 @@ http://localhost:9001
 ### Build Image
 
 ```bash
-docker build -t <your-dockerhub-username>/nodejs-app .
+docker build -t danamostafa/nodejs-app .
 ```
 
 ### Run Container
 
 ```bash
-docker run -p 3000:3000 <your-dockerhub-username>/nodejs-app
+docker run -p 3000:3000 danamostafa/nodejs-app
 ```
 
 ---
